@@ -1,0 +1,119 @@
+#sundaysea-woo-cart{
+	padding: 5px 7px;
+}
+#sundaysea-woo-cart .type-product
+{
+position:relative;
+}
+#ssea-show-post-modal
+{
+z-index: 100;
+position: fixed;
+top: 0px;z-index: 9999999;
+right: -600px;
+bottom: 0px;
+width: 600px;
+padding: 0px;
+box-shadow: 0 0 20px rgba(0,0,0,0.25);
+background: #fff;
+opacity: 1;
+-webkit-transition: all, 0.5s;
+-moz-transition: all, 0.5s;
+-ms-transition: all, 0.5s;
+-o-transition: all, 0.5s;
+transition: all, 0.5s;max-width: 100%;
+}
+
+.show-post-modal .modal-container
+{
+	min-height: 500px;
+}
+.show-post-modal .modal-containerloading
+{
+position: absolute;
+height: 100%;
+width: 100%;
+display: block;
+/* opacity: 0.2; */
+background:rgba(255, 255, 255, 0.77);
+text-align:center;
+padding: 260px 0 0 0;
+z-index: 9999999999999;
+}
+.show-post-modal .preparing {
+font-family: futuraltbold;
+font-size: 20px;
+margin-top: 4px;
+display: block;	
+}
+.slideout-header {
+background:#79007A;
+padding:20px 10px 15px 10px;
+}
+.slideout-header h2 {
+color:#fff;	
+font-size: 1.5em;
+}
+.slideout-header button {
+padding: 10px 16px;
+font-size: 0.8rem;
+font-weight: bold;	
+margin-bottom:0px;
+line-height: 17px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+.show-post-modal .slideout-header .buttons {
+text-align:right;	
+}
+.show-post-modal #sundaysea-slidwoo-checkout:before, .show-post-modal .closemodal:before {
+font-family: "FontAwesome";
+font-size: 1.3rem;
+display: inline-block;
+vertical-align: -4px;
+margin-right: 8px;
+}
+.show-post-modal .slideout-header .closemodal {
+background: rgba(255, 255, 255, 0.16);
+margin-right:5px;
+}
+.show-post-modal #sundaysea-slidwoo-checkout {
+background: #C2DF76;
+color: #000;	
+}
+.show-post-modal #sundaysea-slidwoo-checkout:before {
+content: "\f090";
+}
+.show-post-modal .closemodal:before {
+content:"\f07a";
+}
+.show-post-modal .cart-wrap {
+overflow: auto;	
+padding-top: 20px;
+}
+
+.show-post-modal .cart-wrap::-webkit-scrollbar {
+    width: 15px;
+    height: 0;
+}
+.show-post-modal .cart-wrap::-webkit-scrollbar-thumb:vertical {
+	border-radius: 0px;
+}
+#ssea-modal-background {
+display: none;
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.57);
+z-index: 111111;
+}
+.checkout label {font-weight:bold;}
+#billing_company_field {display:none;}
+
+.woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th, .woocommerce-page table.shop_table tfoot td, .woocommerce-page table.shop_table tfoot th {
+font-weight: bold;
+ border-top: 1px solid rgba(0,0,0,0.1); 
+}
